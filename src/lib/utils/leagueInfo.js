@@ -13,7 +13,7 @@ export const homepageText = `
 
 export const managers = [
      {
-       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Christopher",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Yo Mama's House", // (optional)
@@ -35,7 +35,7 @@ export const managers = [
        "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Hasahn",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Yo Mama's House", // (optional)
@@ -57,7 +57,7 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Austin",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Yo Mama's House", // (optional)
@@ -101,7 +101,7 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Colton",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Yo Mama's House", // (optional)
@@ -123,7 +123,7 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Devon",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Yo Mama's House", // (optional)
@@ -145,7 +145,7 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Cameron",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Yo Mama's House", // (optional)
