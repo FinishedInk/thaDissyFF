@@ -52,24 +52,24 @@ export const managers = [
   },
   {
     "roster": 3,
-    "name": "Devon",
+    "name": "Cameron",
     "tookOver": null,
     "location": "Yo Mama's House",
     "bio": "loading..",
     "photo": "/managers/name.jpg",
     "fantasyStart": 2024,
-    "favoriteTeam": "cin",
+    "favoriteTeam": "jax",
     "mode": "Win Now",
     "rival": {
       "name": "Rival",
       "link": 6,
       "image": "/managers/rival.jpg"
     },
-    "favoritePlayer": 7564,
+    "favoritePlayer": 1426,
     "valuePosition": "WR",
     "rookieOrVets": "Rookies",
-    "philosophy": "Your fantasy team's philosophy",
-    "tradingScale": 4,
+    "philosophy": "Chaos",
+    "tradingScale": 2,
     "preferredContact": "Text"
   },
   {
@@ -80,7 +80,7 @@ export const managers = [
     "bio": "loading..",
     "photo": "/managers/name.jpg",
     "fantasyStart": 2024,
-    "favoriteTeam": "nwe",
+    "favoriteTeam": "ne",
     "mode": "Win Now",
     "rival": {
       "name": "Rival",
@@ -162,7 +162,7 @@ export const managers = [
   },
   {
     "roster": 8,
-    "name": "Cameron",
+    "name": "Devon",
     "tookOver": null,
     "location": "Yo Mama's House",
     "bio": "loading..",
@@ -175,13 +175,14 @@ export const managers = [
       "link": 6,
       "image": "/managers/rival.jpg"
     },
-    "favoritePlayer": 1426,
+    "favoritePlayer": 7564,
     "valuePosition": "WR",
     "rookieOrVets": "Rookies",
-    "philosophy": "Chaos",
-    "tradingScale": 2,
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 4,
     "preferredContact": "Text"
   },
+
   {
     "roster": 9,
     "name": "Bryant",
