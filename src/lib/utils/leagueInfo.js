@@ -18,7 +18,7 @@ export const managers = [
        "tookOver": null,
        "location": "Yo Mama's House",
        "bio": "loading..",
-       "photo": "/managers/name.jpg", 
+       "photo": "/managers/chris.png", 
        "fantasyStart": 2024, 
        "favoriteTeam": "cin", 
        "mode": "Win Now", 
