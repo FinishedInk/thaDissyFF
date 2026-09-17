@@ -113,10 +113,11 @@
 
 <style>
     .matchup {
-        width: 95%;
-        max-width: 600px;
-        margin: 10px auto;
-    }
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    flex: 1 1 300px;
+}
 
     .header {
         display: flex;
