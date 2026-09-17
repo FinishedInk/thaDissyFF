@@ -113,10 +113,19 @@
 
 <style>
     .matchup {
-        width: 95%;
-        max-width: 600px;
-        margin: 10px auto;
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+		flex: 1 1 300px;
+		min-width: 250px;
     }
+
+	/* Add this wrapper rule if your parent has a container */
+	:global(.matchups-container) {
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 20px;
+	}
 
     .header {
         display: flex;
