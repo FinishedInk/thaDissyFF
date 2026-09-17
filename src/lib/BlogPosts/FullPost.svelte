@@ -1,4 +1,5 @@
 <script>
+	import { marked } from 'marked';
 	import LinearProgress from '@smui/linear-progress';
     import { generateParagraph, waitForAll } from "$lib/utils/helper";
     import { onMount } from "svelte";
@@ -207,9 +208,7 @@
         <h3>{title}</h3>
 
         <div class="body">
-            {#each body.content as paragraph}
-                {@html generateParagraph(paragraph)}
-            {/each}
+            {@html marked(body)}
         </div>
 
         <hr class="divider" />
