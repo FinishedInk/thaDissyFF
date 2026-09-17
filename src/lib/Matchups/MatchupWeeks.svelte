@@ -54,6 +54,14 @@
 </script>
 
 <style>
+	.matchups-container {
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 20px;
+	    padding: 10px;
+	    width: 100%;
+	    justify-content: center;
+	}
     .matchups {
         margin: 2em 0 6em;
     }
