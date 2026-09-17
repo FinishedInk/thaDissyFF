@@ -207,9 +207,7 @@
         <h3>{title}</h3>
 
         <div class="body">
-            {#each body.content as paragraph}
-                {@html generateParagraph(paragraph)}
-            {/each}
+            {@html body}
         </div>
 
         <hr class="divider" />
