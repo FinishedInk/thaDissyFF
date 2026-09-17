@@ -117,7 +117,7 @@
         {:else}
             <span class="spacer" />
         {/if}
-    </div>
+    </div class="matchups-container">
     {#each matchupArray as matchup, ix (rand * (ix + 1))}
         <Matchup {ix} {matchup} {players} {displayWeek} bind:active={active} {leagueTeamManagers} />
     {/each}
