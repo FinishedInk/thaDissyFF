@@ -80,49 +80,49 @@
         padding-left: 0.875em;
     }
 
-    :global(.body .heading-1) {
+    :global(.body .h1) {
         margin: 0.4em 0;
         padding: 0 2em;
         font-size: 1.9em;
         text-align: center;
     }
 
-    :global(.body .heading-2) {
+    :global(.body .h2) {
         margin: 0.4em 0;
         padding: 0 2em;
         font-size: 1.8em;
         text-align: center;
     }
 
-    :global(.body .heading-3) {
+    :global(.body .h3) {
         margin: 0.4em 0;
         padding: 0 2em;
         font-size: 1.7em;
         text-align: center;
     }
 
-    :global(.body .heading-4) {
+    :global(.body .h4) {
         margin: 0.4em 0;
         padding: 0 2em;
         font-size: 1.6em;
         text-align: center;
     }
 
-    :global(.body .heading-5) {
+    :global(.body .h5) {
         margin: 0.4em 0;
         padding: 0 2em;
         font-size: 1.5em;
         text-align: center;
     }
 
-    :global(.body .heading-6) {
+    :global(.body .h6) {
         margin: 0.4em 0;
         padding: 0 2em;
         font-size: 1.4em;
         text-align: center;
     }
 
-    :global(.body .bodyParagraph) {
+    :global(.body p) {
         margin: 1em 0;
         padding: 0 2em;
     }
@@ -141,7 +141,7 @@
         color: var(--g111);
     }
 
-    :global(.body .blogImg) {
+    :global(.body img) {
         margin: 1em 0;
         padding: 0 2em;
         display: flex;
@@ -168,6 +168,12 @@
         padding: 0.8em 0;
         background-color: var(--blueOne);
         color: #fff;
+    }
+
+    :global(.body img) {
+    margin: 1em 0;
+    padding: 0 2em;
+    display: block;
     }
 
     .divider {
