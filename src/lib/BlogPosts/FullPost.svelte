@@ -81,42 +81,48 @@
     }
 
     :global(.body .h1) {
-        margin: 0.2em 0;
+        margin-top: 1.5rem;
+        margin-bottom:1.33rem;
         padding: 0 2em;
         font-size: 1.9em;
         text-align: center;
     }
 
     :global(.body .h2) {
-        margin: 0.2em 0;
+        margin-top: 1.5rem;
+        margin-bottom:1.33rem;
         padding: 0 2em;
         font-size: 1.8em;
         text-align: center;
     }
 
     :global(.body .h3) {
-        margin: 0.2em 0;
+        margin-top: 1.5rem;
+        margin-bottom:1.33rem;
         padding: 0 2em;
         font-size: 1.7em;
         text-align: center;
     }
 
     :global(.body .h4) {
-        margin: 0.2em 0;
+        margin-top: 1.5rem;
+        margin-bottom:1.33rem;
         padding: 0 2em;
         font-size: 1.6em;
         text-align: center;
     }
 
     :global(.body .h5) {
-        margin: 0.2em 0;
+        margin-top: 1.5rem;
+        margin-bottom:1.33rem;
         padding: 0 2em;
         font-size: 1.5em;
         text-align: center;
     }
 
     :global(.body .h6) {
-        margin: 0.2em 0;
+        margin-top: 1.5rem;
+        margin-bottom:1.33rem;
         padding: 0 2em;
         font-size: 1.4em;
         text-align: center;
