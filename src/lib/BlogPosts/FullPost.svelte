@@ -1,5 +1,5 @@
 <script>
-    import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
+    import { marked } from 'marked';
 	import LinearProgress from '@smui/linear-progress';
     import { generateParagraph, waitForAll } from "$lib/utils/helper";
     import { onMount } from "svelte";
@@ -17,6 +17,11 @@
     let loadingComments = true;
     let total, comments;
     let leagueTeamManagersDataLoaded, postsDataLoaded;
+
+    marked.setOptions({
+        breaks: true;
+        gfm: true
+    })
 
     onMount(async()=> {
         [leagueTeamManagersDataLoaded, postsDataLoaded] = await waitForAll(leagueTeamManagersData,
@@ -208,7 +213,7 @@
         <h3>{title}</h3>
 
         <div class="body">
-            {@html documentToHtmlString(body)}
+            {@html marked(body)}
         </div>
 
         <hr class="divider" />
