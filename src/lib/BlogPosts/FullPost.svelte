@@ -1,5 +1,5 @@
 <script>
-    import { marked } from 'marked';
+    import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 	import LinearProgress from '@smui/linear-progress';
     import { generateParagraph, waitForAll } from "$lib/utils/helper";
     import { onMount } from "svelte";
@@ -208,7 +208,7 @@
         <h3>{title}</h3>
 
         <div class="body">
-            {@html marked(body)}
+            {@html documentToHtmlString(body)}
         </div>
 
         <hr class="divider" />
