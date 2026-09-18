@@ -19,7 +19,7 @@
     let leagueTeamManagersDataLoaded, postsDataLoaded;
 
     marked.setOptions({
-        breaks: true;
+        breaks: true,
         gfm: true
     })
 
