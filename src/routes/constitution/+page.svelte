@@ -309,4 +309,54 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A 80% majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
+    <h2>Section 8: Compensatory Draft Picks</h2>
+
+<h3>8.1 Purpose</h3>
+<p>This section outlines the rules for awarding compensatory draft picks to teams that experience unexpected player losses due to early retirement, with additional rewards for sustained elite production prior to retirement. The intent is to provide a mechanism for rebuilding and maintaining competitive balance in the league.</p>
+
+<h3>8.2 Trigger Events & Pick Allocation</h3>
+
+<h4>8.2.1 Early Retirement (Before Age 30)</h4>
+<p>If a player drafted in a startup draft retires before reaching age 30, the team that drafted said player will receive a compensatory draft pick as outlined below:</p>
+<ul>
+  <li>Tier 1 (Top 10 Overall Startup Draft Pick): 1st round compensatory pick.</li>
+  <li>Tier 2 (Top 24 Startup Draft Pick): 2nd round compensatory pick.</li>
+  <li>Tier 3 (Remaining Players): 3rd round compensatory pick.</li>
+</ul>
+
+<h4>8.2.2 Sustained Elite Production (RB10+ Two Consecutive Years)</h4>
+<p>If a player finishes as a Top 10 Running Back (RB10 or better) in PPR scoring for two consecutive seasons, and then retires before age 30, the team receives an additional 2nd round compensatory pick (cumulative with any pick received for retirement itself).</p>
+
+<h4>8.2.3 Medical Retirement</h4>
+<p>The league commissioner retains the discretion to award a 3rd round compensatory pick in cases of documented, verifiable medical retirement before age 30, even if the player was not a high-drafted player.</p>
+
+<h3>8.3 Pick Order & Placement</h3>
+
+<h4>8.3.1 Compensatory Draft Round</h4>
+<p>Compensatory picks will be added as the last picks of each round in the annual rookie draft. (e.g., a 1st round comp pick is pick 1.01, after the standard 1st round picks).</p>
+
+<h4>8.3.2 Pick Non-Tradability</h4>
+<p>Compensatory picks are non-tradable.</p>
+
+<h4>8.3.3 Anticipated Frequency</h4>
+<p>It is anticipated that only 1-3 compensatory picks will be awarded per year.</p>
+
+<h3>8.4 Defining "RB10"</h3>
+
+<h4>8.4.1 PPR Scoring</h4>
+<p>The RB10 designation will be based on total PPR points at the RB position at the end of each season, verified using publicly available data sources (e.g., FantasyPros, ESPN).</p>
+
+<h4>8.4.2 Consecutive Years</h4>
+<p>The two seasons must be consecutive for the bonus pick to be awarded.</p>
+
+<h3>8.5 League Management & Verification</h3>
+
+<h4>8.5.1 Documentation</h4>
+<p>The league commissioner (or designated committee) will maintain a clear record of all triggered events and awarded compensatory picks.</p>
+
+<h4>8.5.2 Verification</h4>
+<p>All retirements must be verified by reputable news sources. Medical retirements require supporting documentation.</p>
+
+<h4>8.5.3 Commissioner Discretion</h4>
+<p>The commissioner has final authority in awarding compensatory picks in ambiguous cases.</p>
 </div>
